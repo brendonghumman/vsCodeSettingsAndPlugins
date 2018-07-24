@@ -1,6 +1,12 @@
 {
     "workbench.iconTheme": "vscode-icons",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#282c34",
+        "activityBar.background": "#282c34",
+        "editorGroup.emptyBackground": "#282c34",
+        "sideBar.background": "#282c34"
+    },
     "files.exclude": {
         "**/.git": true,
         "node_modules": true,
@@ -33,7 +39,7 @@
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
     },
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "One Dark Pro",
     "npm.enableScriptExplorer": true,
     "gitlens.historyExplorer.enabled": true,
     "prettier.singleQuote": true,
@@ -42,5 +48,7 @@
     "workbench.editor.closeEmptyGroups": false,
     "window.titleBarStyle": "custom",
     "editor.minimap.enabled": false,
-    "explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "editor.cursorBlinking": "smooth",
+    "editor.tabCompletion": true
 }
