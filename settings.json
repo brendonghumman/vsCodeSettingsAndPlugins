@@ -8,21 +8,21 @@
         "sideBar.background": "#282c34"
     },
     "files.exclude": {
-        "**/.git": true,
-        "node_modules": true,
-        "**/.DS_Store": true,
-        "**/*.js": {
-            "when": "$(basename).ts"
-        },
-        "src/**/*.js.map": true,
-        "test/**/*.js": true
+    "**/.git": true,
+    "node_modules": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+    "when": "$(basename).ts"
+    },
+    "src/**/*.js.map": true,
+    "test/**/*.js": true
     },
     "files.autoSave": "afterDelay",
     "editor.smoothScrolling": true,
     "editor.mouseWheelZoom": true,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
-    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code, Consolas, 'Courier New', monospace",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.codeLens": false,
@@ -30,16 +30,16 @@
     "diffEditor.ignoreTrimWhitespace": true,
     "gitlens.keymap": "chorded",
     "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
     },
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "One Dark Pro Vivid",
     "npm.enableScriptExplorer": true,
     "gitlens.historyExplorer.enabled": true,
     "prettier.singleQuote": true,
@@ -50,5 +50,8 @@
     "editor.minimap.enabled": false,
     "explorer.openEditors.visible": 0,
     "editor.cursorBlinking": "smooth",
-    "editor.tabCompletion": true
+    "editor.tabCompletion": true,
+    "workbench.editor.enablePreview": false,
+    "vsicons.projectDetection.autoReload": true,
+    "workbench.tree.horizontalScrolling": true
 }
