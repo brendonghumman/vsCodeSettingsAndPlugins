@@ -1,9 +1,11 @@
-#  code-insiders --list-extensions  | xargs -L 1 echo code --install-extension
+#  code --list-extensions  | xargs -L 1 echo code --install-extension
+code --install-extension [createInstance] extensionManagementService depends on downloadService which is NOT registered.
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.project-manager
 code --install-extension Angular.ng-template
 code --install-extension christian-kohler.path-intellisense
 code --install-extension codezombiech.gitignore
+code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension donjayamanne.git-extension-pack
 code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
@@ -12,6 +14,7 @@ code --install-extension eg2.tslint
 code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
 code --install-extension hardikpthv.AngularMaterial
+code --install-extension humao.rest-client
 code --install-extension johnpapa.angular-essentials
 code --install-extension johnpapa.Angular2
 code --install-extension johnpapa.winteriscoming
@@ -22,9 +25,18 @@ code --install-extension mohsen1.prettify-json
 code --install-extension ms-vscode.csharp
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension natewallace.angular2-inline
+code --install-extension npxms.hide-gitignored
+code --install-extension PeterJausovec.vscode-docker
 code --install-extension PKief.material-icon-theme
 code --install-extension pmneo.tsimporter
+code --install-extension redhat.java
 code --install-extension robertohuertasm.vscode-icons
+code --install-extension ryu1kn.partial-diff
+code --install-extension shaharkazaz.git-merger
+code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-pack
+code --install-extension vscjava.vscode-maven
 code --install-extension wix.vscode-import-cost
+code --install-extension zhuangtongfa.Material-theme
 code --install-extension Zignd.html-css-class-completion
 code --install-extension ziyasal.vscode-open-in-github

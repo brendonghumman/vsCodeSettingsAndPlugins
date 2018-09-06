@@ -9,7 +9,6 @@
   },
   "files.exclude": {
     "**/.git": true,
-    "node_modules": true,
     "**/.DS_Store": true,
     "**/*.js": {
       "when": "$(basename).ts"
@@ -22,8 +21,7 @@
   "editor.mouseWheelZoom": true,
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
-  "editor.fontFamily":
-    "Dank Mono, Operator Mono, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.codeLens": false,
@@ -52,8 +50,10 @@
   "explorer.openEditors.visible": 0,
   "editor.cursorBlinking": "smooth",
   "editor.tabCompletion": true,
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "vsicons.projectDetection.autoReload": true,
   "workbench.tree.horizontalScrolling": true,
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "workbench.statusBar.feedback.visible": false,
+  "window.zoomLevel": 0
 }
